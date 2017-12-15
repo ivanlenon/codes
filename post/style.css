@@ -1,0 +1,5 @@
+td { line-height: 100px; }
+
+.card { padding: 10px !important; }
+.card .card-img { width: auto !important; float: left; }
+.card .card-content { width: auto !important; float: right; }

@@ -1,0 +1,12 @@
+h3 { color: #56777a; padding: 150px 0 10px 0; }
+.close-thumb span:active { outline: 0; border: 0; }
+.gallery { width: 960px; margin: 0 auto; }
+.thumb { float: left; margin: 0 5px 15px 5px; position: relative; }
+.close-thumb { width: 35px; height: 35px; display: block; top: 0; right: 0; position: absolute; background: #fff !important; opacity: 1; }
+.close-thumb span { color: #56777a; width: 35px; height: 35px; padding-top: 2px; display: block; text-shadow: 0 1px 0 #56777a; }
+.close-thumb:hover, span:hover { color: #fff !important; background: #56777a !important; opacity: 1; }
+/*.tooltip .t { background: #f00 !important; }*/
+.popover { text-transform: uppercase; border: 2px solid #56777a; background: #56777a; border-radius: 0 !important; }
+.popover .arrow::after {  border: 0; }
+.popover .arrow::before {     border-right-color: rgba(86,119,122,1) !important;  }
+.popover-body { color: #fff !important;  }
