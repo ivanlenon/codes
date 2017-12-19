@@ -1,0 +1,5 @@
+.selector-for-some-widget { box-sizing: content-box; }
+
+.gallery { width: 100%; margin: 0 auto; }
+.card { margin: 10px 0; position: relative; }
+.page { margin: 20px 0; }
