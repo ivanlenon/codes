@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
 
 /* Reset ### */
 body { font-family: 'Open Sans', Arial, sans-serif; font-size: 16px; font-weight: 300; color: #656565; }
@@ -26,11 +26,17 @@ button:focus { border: 0 !important; outline: 0 !important; outline-offset: 0 !i
 ============================= */
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	/* navbar */
 	.navbar-toggler { display: none; }
 	.navbar-collapse, .navbar-nav { width: initial; float: right; margin: 0 !important; display: block; border: 0; }
 	.navbar-nav li { width: initial !important; float: left; margin: 0 !important; }
 	.navbar-nav li a { display: block; }
 	.navbar-nav .phone-top span { margin-left: 10px; padding: 5px; border: 1px solid rgb(248, 249, 250); }
+
+	/* banner */
+	.featured { background: #f2f2f2; }
+	.featured h3 { color: rgb(5, 89, 153); font-weight: 700; text-transform: uppercase; }
+	
 }
 
 /* Large Devices, Wide Screens */

@@ -7,7 +7,6 @@
 	<title>HEADER TITLES</title>
 
 	<!-- Bootstrap and Styles CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/styles/style.css">
 </head>
@@ -19,23 +18,21 @@
 		<div class="navbar navbar-default navbar-static-top">
 			<div class="container">
 
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+				<div class="navbar-header navbar-dark text-align-right">
+					<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
 					</button>
 					<!-- NAVBAR BRAND <a class="navbar-brand" href="index.php"><img src="assets/images/logo-andrade.png" alt="Andrade"/></a> -->
 				</div>
 
-				<div class="navbar-collapse collapse ">
+				<div class="navbar-collapse collapse" id="navbarMenu">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.php">Home</a></li>
-						<li><a href="about.html">Sobre</a></li>
-						<li><a href="services.html">Serviços</a></li>
-						<li><a href="obras.html">Obras</a></li>
-						<li><a href="contact.html">Contato</a></li>
-						<li class="phone-header"><span>19 3434-9797</span></li>
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Sobre</a></li>
+						<li><a href="#">Serviços</a></li>
+						<li><a href="#">Obras</a></li>
+						<li><a href="#">Contato</a></li>
+						<li class="phone-top"><span>Phone:</apan> 19 3434-9797</li>
 					</ul>
 				</div>
 
