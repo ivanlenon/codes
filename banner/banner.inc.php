@@ -43,11 +43,11 @@
 
 		<div class="container-fluid featured">
 			<div class="container py-5">
-				<div class="row align-items-center text-left py-5">
+				<div class="row align-items-center text-left">
 					<div class="col-md-6">
-						<h3>Esta é a equipe de construtores que faltava para a sua obra...</h3>
+						<h2>Esta é a equipe de construtores que faltava para a sua obra...</h2>
 						<hr>
-						<p class="pt-5">Andrade Coberturas e Construções é uma equipe de funcionarios treinados e experientes para transformar o seu projeto em uma construção maravilhosa!</p>
+						<p class="pt-2">Andrade Coberturas e Construções é uma equipe de funcionarios treinados e experientes para transformar o seu projeto em uma construção maravilhosa!</p>
 					</div>
 					<div class="col-md-6">
 						<div class="banner">

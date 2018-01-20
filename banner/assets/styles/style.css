@@ -1,14 +1,15 @@
-@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
 /* Reset ### */
-body { font-family: 'Open Sans', Arial, sans-serif; font-size: 16px; font-weight: 300; color: #656565; }
+body { font-family: 'Open Sans', Arial, sans-serif; font-weight: 400; color: #656565; }
 a { text-decoration: none !important; } a:active { outline: 0; } .clear { clear: both; } ul li { list-style: none;}
 .container { padding: 0 20px 0 20px; position: relative; }
 .img { max-width:100%; }
 button:focus { border: 0 !important; outline: 0 !important; outline-offset: 0 !important; }
 
-/* Header Navbar
+/* Mobile First
 ============================= */
+/* header */
 .navbar { min-height: 70px; margin-bottom: 0; padding: 10px 0; }
 .navbar-default { width: 100%; border: none; background: #055999; }
 .navbar-header { width: 100%; position: relative; }
@@ -20,6 +21,11 @@ button:focus { border: 0 !important; outline: 0 !important; outline-offset: 0 !i
 .navbar-nav li a:hover { background: #ffc02a !important; }
 .navbar-nav .phone-top, .phone-top span { color: #fff;  font-size: 16px; letter-spacing: 1px; text-align: center; text-transform: uppercase; }
 .navbar-nav .active a { color: #fff; background-color: #ffc02a; }
+
+
+/* featured */
+.featured { color: #000; font-size: 1.5rem !important; font-weight: 300; background: #f2f2f2; }
+.featured h2 { color: rgb(5, 89, 153); text-align: center; font-weight: 300; }
 
 
 /*  Media queries
@@ -34,9 +40,8 @@ button:focus { border: 0 !important; outline: 0 !important; outline-offset: 0 !i
 	.navbar-nav .phone-top span { margin-left: 10px; padding: 5px; border: 1px solid rgb(248, 249, 250); }
 
 	/* banner */
-	.featured { background: #f2f2f2; }
-	.featured h3 { color: rgb(5, 89, 153); font-weight: 700; text-transform: uppercase; }
-	
+	.featured h2 { text-align: left; }
+
 }
 
 /* Large Devices, Wide Screens */
